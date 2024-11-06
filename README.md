@@ -1,14 +1,9 @@
-# Welcome to your CDK TypeScript project
+# aws-oidc-provider-for-github
 
-This is a blank project for CDK development with TypeScript.
+## Description
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+GitHub Actions から AWS へアクセスするための OIDC 認証プロバイダー定義.
 
-## Useful commands
+## Reference
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+- [アマゾン ウェブ サービスでの OpenID Connect の構成](https://docs.github.com/ja/actions/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services)
