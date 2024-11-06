@@ -2,7 +2,9 @@
 
 ## Description
 
-AWS CDK を用いた GitHub Actions から AWS へアクセスするための OIDC 認証プロバイダー定義.
+AWS CDK を用いた GitHub Actions から AWS へアクセスするための OIDC 認証プロバイダー定義例.
+
+静的ファイルを S3 バケットにアップロードし, CloudFront で配信するユースケースを想定して定義している.
 
 ## Reference
 
