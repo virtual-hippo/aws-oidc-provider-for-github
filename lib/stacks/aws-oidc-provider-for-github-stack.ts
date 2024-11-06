@@ -6,6 +6,7 @@ import {
   RemovalPolicy,
   Stack,
   StackProps,
+  CfnOutput,
 } from "aws-cdk-lib";
 import { Construct } from "constructs";
 
@@ -79,5 +80,8 @@ export class AwsOIDCProviderForGithubStack extends Stack {
     });
 
     oidcDeployRole.attachInlinePolicy(deployPolicy);
+
+    new CfnOutput(this, "DeployRoleArn", { value: oidcDeployRole.roleArn });
+    new CfnOutput(this, "BucketName", { value: bucket.bucketName });
   }
 }
