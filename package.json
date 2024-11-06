@@ -1,8 +1,8 @@
 {
-  "name": "aws-open-id-connect-provider-for-github",
+  "name": "aws-oidc-provider-for-github",
   "version": "0.1.0",
   "bin": {
-    "aws-open-id-connect-provider-for-github": "bin/aws-open-id-connect-provider-for-github.js"
+    "aws-oidc-provider-for-github": "bin/aws-oidc-provider-for-github.js"
   },
   "scripts": {
     "build": "tsc",
